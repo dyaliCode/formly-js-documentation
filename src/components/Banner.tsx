@@ -23,6 +23,7 @@ function BannerText() {
           className="item"
           href="https://github.com/dyaliCode/formly-react"
           target={"_blank"}
+          title="reactjs"
         >
           <img
             alt="Reactjs"
@@ -33,6 +34,7 @@ function BannerText() {
           className="item"
           href="https://github.com/dyaliCode/solid-formly"
           target={"_blank"}
+          title="solidjs"
         >
           <img
             alt="SolidJS"
@@ -43,6 +45,7 @@ function BannerText() {
           className="item"
           href="https://github.com/dyaliCode/svelte-formly"
           target={"_blank"}
+          title="sveltejs"
         >
           <img
             alt="SvelteJs"
