@@ -13,7 +13,7 @@ module.exports = {
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  // favicon: "img/favicon.ico",
+  favicon: "img/favicon.ico",
   organizationName: "formlyjs",
   projectName: "formlyjs.github.io",
   themeConfig: {
@@ -24,7 +24,7 @@ module.exports = {
       title: "FormlyJS",
       logo: {
         alt: "Formlyjs Logo",
-        src: "img/logo-2.png",
+        src: "logos/logo.png",
       },
       items: [
         {
