@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+  font-family: "Inter", sans-serif;
+  --doc-sidebar-width: 250px !important;
+  --ifm-code-font-size: 100%;
+}
+
+:root .navbar__title {
+  margin-left: 4px;
+  font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Inter", sans-serif;
+}
+
+.hero__title {
+  color: white;
+}
+
+.prism-code {
+  background-color: var(--prismBg) !important;
+}
+
+/* navbar community link icons */
+.navbar__item.navbar__link[href*="github"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="github"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: var(--github);
+  background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="t.me"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="t.me"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: var(--telegram);
+  background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="discord"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="discord"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: var(--discord);
+  background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="matrix"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="matrix"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: var(--matrix);
+  background-repeat: no-repeat;
+}
+
+
+/* ===== Scrollbar ==== */
+
+* {
+  scrollbar-width: .5rem;
+  scrollbar-color: blue pink;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: .5rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--border);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-primary);
+  border-radius: 5px;
+}
+
+/* misc */
+img {
+  border-radius: .5rem;
+}
+
+/* Logos Frameworks */
+.logos-frameworks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 4rem;
+}
+.logos-frameworks .item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  /* box-shadow: var(--shadow); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 250ms ease-in-out;
+  color: #a7bfe8;
+  /* background-color: #1e222a; */
+  border-radius: 2rem;
+  /* padding: 1rem 1.5rem; */
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+}

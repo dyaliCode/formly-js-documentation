@@ -1,0 +1,3 @@
+- [Formly React](https://github.com/dyaliCode/formly-react)
+- [Formly Solid](https://github.com/dyaliCode/solid-formly)
+- [Formly Svelte](https://github.com/dyaliCode/svelte-formly)
