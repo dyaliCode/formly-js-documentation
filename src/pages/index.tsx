@@ -19,6 +19,6 @@ function Home() {
   );
 }
 
-export default function () {
+export default function() {
   return <Home />;
 }

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "FormlyJS",
+  title: "Formly-JS",
   tagline: "A good solution to generate dynamic forms using rules, styles and more.",
   url: "https://formlyjs.github.io/",
   baseUrl: "/",

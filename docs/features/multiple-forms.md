@@ -1,6 +1,6 @@
 ---
-id: multiple
-title: Multiple
+id: multiple-forms
+title: Multiple Forms
 sidebar_position: 2
 ---
 
