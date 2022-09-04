@@ -13,13 +13,8 @@
   --matrix: url("/icons/matrix.svg");
 
   --featuresH3: #1e222a;
-  --ifm-color-primary: #7f87e0;
-  --banner_gradient: linear-gradient(
-    -225deg,
-    #5271c4 0%,
-    #b19fff 48%,
-    #eca1fe 100%
-  );
+  --ifm-color-primary: #8ebbea;
+  --banner_gradient: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
 }
 
 [data-theme="dark"] {
@@ -35,17 +30,11 @@
   --discord: url("/icons/discord-inverted.svg");
   --matrix: url("/icons/matrix-inverted.svg");
 
-  --ifm-color-primary: #ff6e80;
-  --featuresH3: #ff6e80;
-
-  --banner_gradient: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+  --ifm-color-primary: #bc688e;
+  --featuresH3: #bc688e;
+  --banner_gradient: radial-gradient(
+    circle 732px at -23.9% -25.1%,
+    rgba(30, 39, 107, 1) 6.1%,
+    rgba(188, 104, 142, 1) 100.2%
   );
 }
-
